@@ -275,10 +275,10 @@ var test = {
             "question": "30. Zagadnienie Dirichleta dotyczy równań",
             "tip": "",
             "answer": [
-                {"text": "Parabolicznych", "valid": false},
+                {"text": "Parabolicznych", "valid": true},
                 {"text": "Eliptycznych", "valid": true},
                 {"text": "Różniczkowych", "valid": true},
-                {"text": "Hiperbolicznych", "valid": false}
+                {"text": "Hiperbolicznych", "valid": true}
 
             ]
         },
@@ -641,13 +641,86 @@ var test = {
             ]
         },
         {
-            "question": "67. Zaznacz wszystkie prawidłowe określenia:",
+            "question": "Diagnostyka obiektów zajmuje się oceną stanu urządzenia przez badania bezpośrednia ich własności i badania procesów towarzyszących funkcjonowaniu tych urządzeń tzw. procesów resztkowych. Procesy resztkowe mogą mieć charakter mechaniczny, elektryczny,termiczny, akustyczny itp.",
             "tip": "",
             "answer": [
-                {"text": "Ze względu na reprezentacje binarną typów wartości stało i zmiennopozycyjnych, obliczenia zmienno-pozycyjne podlegają całkowicie innym rodzajom błędów w obliczeniach numerycznych.", "valid": true},
-                {"text": "Liczby zmiennopozycyjne to zbiory wartości, które mogą być wyrażane w sposób skończony i przeliczalny poprzez skończoną liczbę binarną", "valid": false},
-                {"text": "Liczby zmiennopozycyjne to zbiory wartości, które nie mogą być wyrażane w sposób skończony i przeliczalny poprzez skończoną liczbę binarną", "valid": true},
-                {"text": "Liczby z zakresu stałopozycyjnych zawsze są zbiorami skończonymi i przeliczalnymi", "valid": true}
+                    {"text": "Prawda", "valid": true},
+                {"text": "Fałsz", "valid": false}
+                
+            ]
+        },
+         {
+           "question": "Czy norma euklidesowa macierzy jest",
+            "tip": "",
+            "answer": [
+                    {"text": "Jest normą pierwszą macierzy", "valid": false},
+                {"text": "Jest normą pierwszą i drugą macierzy", "valid": true}
+                {"text": "Jest normą drugą macierzy", "valid": false}
+            ]
+        },
+         {
+             "question": "Diagnozowaniem nazywamy proces wykrywania bez rozróżniania stanów obiektu lub procesu w wyniku zbierania, przetwarzania, analizy oraz oceny sygnałów diagnostycznych.",
+            "tip": "",
+            "answer": [
+                    {"text": "Prawda", "valid": false},
+                {"text": "Fałsz", "valid": true}
+            ]
+        },
+         {
+            "question": " W wyniku konwersji z układu 10 otrzymano liczbę 2510246.223541 Na jaki układ wykonano konwersję",
+            "tip": "Największa cyfra liczby < Odpowiedź",
+            "answer": [
+                {"text": "O podstawie 2", "valid": false},
+                {"text": "O podstawie 3", "valid": false},
+                {"text": "O podstawie 4", "valid": false},
+                {"text": "O podstawie 5", "valid": false},
+                {"text": "O podstawie 6", "valid": false},
+                {"text": "O podstawie 7", "valid": true},
+                {"text": "O podstawie 8", "valid": true},
+                {"text": "O podstawie 9", "valid": true},
+                {"text": "Żadna z wymienionych", "valid": false}
+            ]
+        },
+         {
+            "question": "Diagnostyka obiektów zajmuje się oceną stanu urządzeń przez badania bezpośrednie ich własności",
+            "tip": "",
+            "answer": [
+                   {"text": "Prawda", "valid": true},
+                {"text": "Fałsz", "valid": false}
+            ]
+        },
+         {
+            "question": "Czy do obszarów diagnostyki nie zaliczamy diagnostyki procedur?",
+            "tip": "",
+            "answer": [
+                {"text": "Prawda", "valid": false},
+                {"text": "Fałsz", "valid": true}
+            ]
+        },
+         {
+            "question": "Do obszarów diagnostyki zaliczamy",
+            "tip": "",
+            "answer": [
+                {"text": "Automatykę", "valid": true},
+                {"text": "Diagnostykę techniczną", "valid": true},
+                {"text": "Diagnostykę obiektów i procesów", "valid": false},
+                {"text": "Diagnostykę obiektów", "valid": false}
+            ]
+        },
+         {
+            "question": "Przez stan obiektu lub procesu nie określamy jego przynależności do zdefiniowanych stanów (np. normalny, zakłóceniowy, awaryjny)",
+            "tip": "",
+            "answer": [
+               {"text": "Prawda", "valid": false},
+                {"text": "Fałsz", "valid": true}
+            ]
+        },
+         {
+            "question": "Sygnałem diagnostycznym określamy parametryczną zmienną wyjścia, której parametry nie są skorelowane z czułością , jednoznacznością oraz stabilnością monitorowanego obiektu lub procesu.",
+            "tip": "",
+            "answer": [
+               {"text": "Prawda", "valid": false},
+                {"text": "Fałsz", "valid": true}
             ]
         },
         {
